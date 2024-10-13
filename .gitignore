@@ -50,5 +50,6 @@ Thumbs.db
 
 
 /vendor
+./vendor
 /node_modules
 /storage/debugbar
