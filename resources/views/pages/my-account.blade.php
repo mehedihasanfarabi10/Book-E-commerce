@@ -1,0 +1,6 @@
+@extends('layout.app')
+@section('content')
+    @include('components.MenuBar')
+    @include('components.Breadcrumb')
+    @include('components.MyAccount')
+    @include('components.Footer')

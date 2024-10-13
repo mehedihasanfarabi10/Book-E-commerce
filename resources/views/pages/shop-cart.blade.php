@@ -1,0 +1,5 @@
+@extends('layout.app')
+@section('content')
+    @include('components.MenuBar')
+    @include('components.ShopCart')
+    @include('components.Footer')
