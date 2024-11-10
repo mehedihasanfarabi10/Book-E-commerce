@@ -27,6 +27,8 @@ Route::get('/about-us', [HomeController::class, 'aboutUs'])->name('about');
 Route::get('/compare', [HomeController::class, 'compare'])->name('compare');
 Route::get('/wishlist', [HomeController::class, 'wishlist'])->name('wishlist');
 
+
+
 //user profile
 Route::get('/my-account', [ProfileController::class, 'myAccount'])->name('my.account');
 
